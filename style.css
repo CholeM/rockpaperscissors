@@ -1,0 +1,117 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+}
+
+main {
+ display: flex;
+ flex-direction: column;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #21618C;
+}
+
+h2 {
+  color: #1F2937;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.infoBox {
+  text-align: center;
+}
+
+.playerBox {
+  background-color: #fff;
+  border: 3px solid #8BE197;
+  max-width: 336px;
+  min-width:336px;
+  display:inline-block;
+}
+
+.computerBox {
+  background-color: #fff;
+  border: 3px solid #8BE197;
+  
+  max-width: 336px;
+  min-width:336px;
+  display:inline-block;
+}
+
+.handBox {
+  background-color: #fff;
+  border: 3px solid #8BE197;
+  max-width: 490px;
+  min-width: 490px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.sign {
+  font-size: 40px;
+  color: #1ABC9C;
+}
+
+.endGame {
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.btn {
+  background-color: #1F2937;
+  color: #FFF;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 20px;
+  min-width: 210px;
+  height: 60px;
+  display:inline;
+  margin-bottom: 100px;
+}
+
+.choice {
+  margin-bottom: 50px;
+}
+
+.handBtn {
+  background-color: transparent;
+  font-size: 100px;
+  border:none;
+
+}
+.rock{
+  color: #EC9394;
+}
+.paper{
+  color: #93B1EC;
+}
+.scissors{
+  color: #D893EC;
+}
+
+.startPlay {
+  color: #6EB06A;
+  font-size: 100px;
+}
+
+.startComp {
+  color: #6EB06A;
+  font-size: 100px;
+}
+
+.handBtn:hover, .btn:hover{
+  cursor: pointer;
+}

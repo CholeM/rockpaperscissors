@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+<body>
+  <body>
+    <header>
+      <h1 class="text-center">Rock Paper Scissors</h1>
+      <p class="text-center">Score 5 points to win</p>
+    </header>
+    <main>
+      <div class="infoBox">
+        <h2>Result: <span class="finalResult"></span></h2>
+        <div class="playerBox">
+          <h3>You Played: </h3>
+          <i class="fas fa-circle startPlay"></i>
+          <p>Score: <span id="playScore">0</span></p>
+        </div>
+        <div class="computerBox">
+          <h3>Computer Played: </h3>
+          <i class="fas fa-circle startComp"></i>
+          <p>Score: <span id="compScore">0</span></p>
+        </div>
+      </div>
+      <div class="resultBox">
+        <h3 class="text-center">This round: <span id="outcome"></span></h3>
+      </div>
+      <div class="handBox">
+        <button class="handBtn rock"><i class="fas fa-hand-rock"></i></button>
+        <button class="handBtn paper"><i class="fas fa-hand-paper"></i></button>
+        <button class="handBtn scissors"><i class="fas fa-hand-scissors"></i></button>
+      </div>
+      
+      <div class="endGame">
+        <button class="btn restartBtn">Restart?</button>
+      </div>
+    </main>
+    <script src="computerPlay.js"></script>
+  </body>
+</html>
